@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+body{
+    background-color: #070722;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.planets_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.planets_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.mercury_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.venus_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.earth_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.mars_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.jupiter_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.saturn_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.uranus_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.neptune_div:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.planets_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.planet_info{
+    width: 400px;
+    margin-right: 180px;
+    margin-top: 100px;
+}
+
+.planet_text h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.planet_text p{
+    line-height: 1.5;
+    color: #c9c9c9;
+}
+
+.wikipedia{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.planet_ois_buttons{
+    display: grid;
+}
+
+.planet_ois_buttons button{
+    padding: 18px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 25px;
+    border: 1px solid;
+    background: transparent;
+    border-color: #38384E;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.planet_ois_buttons button:hover{
+    background-color: #38384E;
+}
+
+.planet_ois_buttons button span{
+    color: #a4a4ac;
+}
+
+.planet_pic{
+    margin-left: 25%;
+    margin-top: 90px;
+}
+
+.hr{
+    background-color: #38384E;
+    border: none;
+    padding: 0.5px;
+}
+
+.planet_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-left: 200px;
+    margin-right: 180px;
+    margin-top: 100px;
+}
+
+.planet_footer > div{
+    border: 1px solid #38384E;
+    width: 100%;
+    padding-inline: 30px;
+    padding-bottom:  10px;
+}
+
+.planet_footer > div h3{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #83838A;
+}
+
+.planet_footer > div span{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.button_overview{
+    background-color: #419DB9;
+}
+
+.planets_name > div a{
+    text-decoration: none;
+    color: #fff;
+}
